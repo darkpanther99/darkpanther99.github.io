@@ -8,13 +8,15 @@
 
 </head>
 <body>
-    <div>
-        <h1>Hello, world!</h1>
-    </div>
     <div class="container">
         <div class="row">
+          <div class="col-12" id="descriptiondiv">
+              <h1>Description:</h1>
+              <p>In this website, you can listen to the music, I have made using Machine Learning in my <a href="https://github.com/darkpanther99/DeepLearningMusicGeneration">project</a>. I used Markov-chains, a Stacked LSTM architecture and a VAE, which I recreated from this <a href="https://arxiv.org/pdf/1803.05428.pdf">paper</a>. This website also serves as a platform to easily compare the results.</p>
+              <p></p>
+          </div>
           <div class="col-sm">
-            <h2>Bass Guitar outputs of my Markov-chain:</h2>
+            <h3>Bass Guitar outputs of my Markov-chain:</h3>
             <audio controls>
                 <source src="res\markov_bass_constanttempo_1.wav" type="audio/wav">
             </audio>
@@ -32,7 +34,7 @@
             </audio>
           </div>
           <div class="col-sm">
-            <h2>Guitar outputs of my Markov-chain:</h2>
+            <h3>Guitar outputs of my Markov-chain:</h3>
             <audio controls>
                 <source src="res\markov_guitar_1.wav" type="audio/wav">
             </audio>
@@ -50,7 +52,7 @@
             </audio>
           </div>
           <div class="col-sm">
-            <h2>Bass outputs of my LSTM:</h2>
+            <h3>Bass outputs of my LSTM:</h3>
             <audio controls>
                 <source src="res\LSTM_bass_1.wav" type="audio/wav">
             </audio>
@@ -68,7 +70,7 @@
             </audio>
           </div>
           <div class="col-sm">
-            <h2>Guitar outputs of my LSTM:</h2>
+            <h3>Guitar outputs of my LSTM:</h3>
             <audio controls>
                 <source src="res\LSTM_rhythm_guitar.wav" type="audio/wav">
             </audio>
@@ -86,7 +88,7 @@
             </audio>
           </div>
           <div class="col-sm">
-            <h2>Guitar+Bass outputs of my LSTM:</h2>
+            <h3>Guitar+Bass outputs of my LSTM:</h3>
             <audio controls>
                 <source src="res\LSTM_bass+guitar_1.wav" type="audio/wav">
             </audio>
@@ -104,7 +106,7 @@
             </audio>
           </div>
           <div class="col-sm">
-            <h2>Longer Guitar outputs of my VAE:</h2>
+            <h3>Longer Guitar outputs of my VAE:</h3>
             <audio controls>
                 <source src="res\VAEguitarlong1.wav" type="audio/wav">
             </audio>
@@ -122,7 +124,7 @@
             </audio>
           </div>
           <div class="col-sm">
-            <h2>Short Bass outputs of my VAE:</h2>
+            <h3>Short Bass outputs of my VAE:</h3>
             <audio controls>
                 <source src="res\VAEbassshort1.wav" type="audio/wav">
             </audio>
@@ -140,21 +142,21 @@
             </audio>
           </div>
           <div class="col-sm">
-            <h2>Short Guitar outputs of my VAE:</h2>
+            <h3>Short Guitar outputs of my VAE:</h3>
             <audio controls>
-                <source src="res\LSTM_bass+guitar_1.wav" type="audio/wav">
+                <source src="res\VAEguitarshort1.wav" type="audio/wav">
             </audio>
             <br>
             <audio controls>
-                <source src="res\LSTM_bass+guitar_2.wav" type="audio/wav">
+                <source src="res\VAEguitarshort2.wav" type="audio/wav">
             </audio>
             <br>
             <audio controls>
-                <source src="res\LSTM_bass+guitar_3.wav" type="audio/wav">
+                <source src="res\VAEguitarshort3.wav" type="audio/wav">
             </audio>
             <br>
             <audio controls>
-                <source src="res\LSTM_bass+guitar_4.wav" type="audio/wav">
+                <source src="res\VAEguitarshort4.wav" type="audio/wav">
             </audio>
           </div>
         </div>
