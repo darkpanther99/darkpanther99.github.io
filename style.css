@@ -1,8 +1,9 @@
-body {
-    background-color: lightgray;
-}
+h2 {
+    display: inline;
+    font-weight: normal;
+    font-family: Helvetica, sans-serif;
+  }
 
-#descriptiondiv{
-    margin-top: 30px;
-    margin-bottom: 50px;
+h1{
+    font-family: Helvetica, sans-serif;
 }
