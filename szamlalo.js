@@ -3,14 +3,14 @@ var fandortartozas = document.getElementById("fandortartozas")
 var pityutartozas = document.getElementById("pityutartozas")
 var szanditartozas = document.getElementById("szanditartozas")
 
-var initial_tartozasok = [-1700, 7000, 3000-8000, 3000-10000]
+var initial_tartozasok = [6300, 15000, 3000, 1000]
 var tartozas_elements = [banditartozas, fandortartozas, pityutartozas, szanditartozas]
 
-var startdate = new Date(2021, 3) //Ekkor készült a webpage, 2021 áprilisban, a 3 az április, mert a hónapokat 0-tól indexeli.
+var startdate = new Date(2022, 7) //Ekkor volt a legutolsó árváltoztatás, 2022 augusztusban, a 7 az augusztus, mert a hónapokat 0-tól indexeli.
 var currentdate = new Date(Date.now())
 
 var difference = monthDiff(startdate, currentdate)
-const PRICE = 500
+const PRICE = 550
 
 var vegso_tartozasok = []
 
