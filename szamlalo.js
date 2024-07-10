@@ -3,7 +3,7 @@ var fandortartozas = document.getElementById("fandortartozas")
 var pityutartozas = document.getElementById("pityutartozas")
 var szanditartozas = document.getElementById("szanditartozas")
 
-var initial_tartozasok = [-8250, -5000, -12000, -9000]
+var initial_tartozasok = [-14250, -5000, -12000, -9000]
 var tartozas_elements = [banditartozas, fandortartozas, pityutartozas, szanditartozas]
 
 var startdate = new Date(2022, 7) //Ekkor volt a legutolsó árváltoztatás, 2022 augusztusban, a 7 az augusztus, mert a hónapokat 0-tól indexeli.
