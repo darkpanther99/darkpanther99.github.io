@@ -4,14 +4,14 @@ var pityutartozas = document.getElementById("pityutartozas")
 var szanditartozas = document.getElementById("szanditartozas")
 var annatartozas = document.getElementById("annatartozas")
 
-var initial_tartozasok = [-14250, -5000, -12000-7000, -9000-10000, -13200]
+var initial_tartozasok = [6100, 15350, 1350, 1350, 7150]
 var tartozas_elements = [banditartozas, fandortartozas, pityutartozas, szanditartozas, annatartozas]
 
-var startdate = new Date(2022, 7) //Ekkor volt a legutolsó árváltoztatás, 2022 augusztusban, a 7 az augusztus, mert a hónapokat 0-tól indexeli.
+var startdate = new Date(2025, 8) //Ekkor volt a legutolsó árváltoztatás, 2025 szeptemberben, a 8 az szeptember, mert a hónapokat 0-tól indexeli.
 var currentdate = new Date(Date.now())
 
 var difference = monthDiff(startdate, currentdate)
-const PRICE = 550
+const PRICE = 700
 
 var vegso_tartozasok = []
 
