@@ -4,7 +4,7 @@ var pityutartozas = document.getElementById("pityutartozas")
 var szanditartozas = document.getElementById("szanditartozas")
 var annatartozas = document.getElementById("annatartozas")
 
-var initial_tartozasok = [6100, 15350, 1350, 1350, 7150]
+var initial_tartozasok = [6100, 15350, 1350, 1350, 150]
 var tartozas_elements = [banditartozas, fandortartozas, pityutartozas, szanditartozas, annatartozas]
 
 var startdate = new Date(2025, 8) //Ekkor volt a legutolsó árváltoztatás, 2025 szeptemberben, a 8 az szeptember, mert a hónapokat 0-tól indexeli.
