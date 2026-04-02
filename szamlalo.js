@@ -2,10 +2,9 @@ var banditartozas = document.getElementById("banditartozas")
 var fandortartozas = document.getElementById("fandortartozas")
 var pityutartozas = document.getElementById("pityutartozas")
 var szanditartozas = document.getElementById("szanditartozas")
-var annatartozas = document.getElementById("annatartozas")
 
-var initial_tartozasok = [6100-10000, 15350, 1350, 1350, 150]
-var tartozas_elements = [banditartozas, fandortartozas, pityutartozas, szanditartozas, annatartozas]
+var initial_tartozasok = [6100-10000, 15350, 1350, 1350]
+var tartozas_elements = [banditartozas, fandortartozas, pityutartozas, szanditartozas]
 
 var startdate = new Date(2025, 8) //Ekkor volt a legutolsó árváltoztatás, 2025 szeptemberben, a 8 az szeptember, mert a hónapokat 0-tól indexeli.
 var currentdate = new Date(Date.now())
